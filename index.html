@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Exam by Admission Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+
+   <div class="MyQuizApp">
+        <div class="img">
+            <img src="img/Question.svg" alt="question picture">
+        </div>
+        <div class="text1">
+            <h3>Admission Test</h3>
+            <p>সুপ্রিয় শিক্ষার্থীরা তোমাদের পড়ালেখা আরও সহজ করার জন্য নিয়ে আসলাম সম্পূর্ণ ফ্রিতে পরীক্ষা দেওয়ার অ্যাপ।</p>
+
+            <h3>Important Notice</h3>
+            <p>নিয়মিত পরীক্ষা দেওয়ার জন্য আমাদের <a href="https://www.facebook.com/magura.05" class="inbox" target="_blank">পেইজ</a> ফলো দিয়ে রাখো।</p>
+        </div>
+        <div class="MyBtn">
+            <button>Next Page</button>
+        </div>
+   </div>
+
+    <div class="RulesBox">
+        <div class="RulesTitle">পরীক্ষার নিয়মসমূহ</div>
+        <div class="RulesList">
+            <ol>
+                <li>প্রতিটি প্রশ্নের জন্য<span style="color: #007bff;"> ১৫ সেকেন্ড</span> সময় নির্ধারিত।</li>
+                <li>একটি প্রশ্নের উত্তর একবারই সিলেক্ট করতে পারবেন।</li>
+                <li>পরীক্ষা শুরু হয়ে গেলে আপনি আর বের হতে পারবেন না।</li>
+                <li> আপনি কতগুলো সঠিক উত্তর দিয়েছেন তা পরীক্ষার শেষে দেখতে পাবেন।</li>
+            </ol>
+    </div>
+
+    <div class="Buttons">
+        <button class="ExitButton">Exit</button>
+        <button class="ContinueButton">Start</button>
+    </div>
+    </div>
+
+    <div class="Questions">
+
+        <header class="QuestionsHeader">
+            <div class="title">পরীক্ষা শুরু...</div>
+
+            <div class="TimeCount">
+                <div class="TimeLeft">সময় বাকি</div>
+                <div class="Seconds">15</div>
+            </div>
+
+            <div class="time_lines"></div>
+        </header>
+
+
+        <div class="section">
+            <div class="text"></div>
+            <div class="MyOptions"></div>  
+        </div>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="nextBtn">Next Question</button>
+        </footer>
+        
+    </div>
+
+    <div class="reslut_box">
+        <div class="ResultImg">
+            <img src="img/winner.svg" alt="winner picture">
+        </div>
+        <div class="complete_text"><p class="custom_text">আপনি পরীক্ষা সম্পন্ন করেছেন। উত্তর দেখতে ‍<a href="https://www.facebook.com/magura.05" target="_blank" class="inbox">Answer</a> এ ক্লিক করুন</p></div>
+        <div class="score_text">
+            <span>Carry On. You Got <p>0</p> Out Of <p>15</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart1">Replay</button>
+            <button class="quit">Quit Exam</button>
+        </div>
+    </div> 
+
+    <script src="js/script.js"></script>
+    <script src="js/question.js"></script>
+</body>
+</html>
